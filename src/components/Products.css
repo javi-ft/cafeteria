@@ -1,0 +1,26 @@
+/* Productos */
+.add-to-cart-btn {
+  background-color: #8B4513;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #A0522D;
+}
+
+.add-to-cart-btn.adding {
+  background-color: #4CAF50; /* Verde cuando se añade */
+}
+
+.add-to-cart-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

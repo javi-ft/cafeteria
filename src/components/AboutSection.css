@@ -1,0 +1,79 @@
+/* About Section Styles */
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #f9f5f0;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    color: #3e2723;
+    margin-bottom: 3rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .about-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon-container {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6f4e37;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  
+  .about-icon {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .about-card-title {
+    font-size: 1.5rem;
+    color: #6f4e37;
+    margin-bottom: 1rem;
+  }
+  
+  .about-card-text {
+    color: #5d4037;
+    line-height: 1.6;
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .about-card {
+      width: 100%;
+    }
+  }

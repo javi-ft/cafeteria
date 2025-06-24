@@ -1,0 +1,33 @@
+/* src/pages/Menu.css */
+.menu-page {
+    padding: 2rem;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-card button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background-color: #A0522D;
+  }
+  

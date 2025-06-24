@@ -1,0 +1,21 @@
+.notificacion {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #8b5a2b;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    animation: fadeInOut 3s forwards;
+    z-index: 1100;
+    font-weight: 600;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(20px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(20px); }
+  }
+  

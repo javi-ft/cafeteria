@@ -1,0 +1,15 @@
+.hero-cafe {
+  background: url('cafe-hero.jpg') no-repeat center/cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+.btn-cta {
+  background: #5D4037;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,20 @@
+.contact-form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .btn-submit {
+    background: #6D4C41;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }

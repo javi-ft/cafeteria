@@ -1,0 +1,205 @@
+/* Estilos generales */
+.about-page {
+    font-family: 'Open Sans', sans-serif;
+    color: #3e2723;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: url('../assets/cf-hr.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  .about-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+  
+  /* Historia */
+  .about-history {
+    display: flex;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .history-content {
+    flex: 1;
+  }
+  
+  .history-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #6f4e37;
+    margin-bottom: 1.5rem;
+  }
+  
+  .history-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .history-image {
+    flex: 1;
+    height: 400px;
+    background: url('../assets/hist.jpg') center/cover;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Misión y Visión */
+  .mission-vision {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background: #f5f0eb;
+  }
+  
+  .mission, .vision {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .icon-box {
+    background: #6f4e37;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .section-icon {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .mission h3, .vision h3 {
+    font-family: 'Playfair Display', serif;
+    color: #6f4e37;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  /* Valores */
+  .values {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #6f4e37;
+    margin-bottom: 3rem;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .value-card {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    color: #6f4e37;
+    margin-bottom: 1rem;
+  }
+  
+  .value-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #3e2723;
+  }
+  
+  /* CTA */
+  .about-cta {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0,0,0,0.7)), url('../assets/cf-cta.jpeg') center/cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+color: white;
+  }
+  
+  .about-cta h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background: #e67e22;
+    color: white;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #d35400;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-history {
+      flex-direction: column;
+    }
+    
+    .mission-vision {
+      flex-direction: column;
+    }
+    
+    .about-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.1rem;
+    }
+  }
